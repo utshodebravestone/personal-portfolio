@@ -30,7 +30,7 @@ const About = () => {
     <section className="bg-neutral-900 w-full py-5 px-2.5 md:px-5 flex flex-col gap-2.5 md:gap-5 rounded-xl border border-neutral-700">
       <h1 className="font-bold text-2xl md:text-4xl">About Me</h1>
       <div className="h-1 md:h-1.5 w-8 md:w-10 bg-yellow-400 rounded-xl" />
-      <p className="font-extralight text-[.65rem] md:text-base">
+      <p className="font-extralight text-xs md:text-base">
         I'm a Fullstack Web Developer from Kurigram, Bangladesh, working in web
         development and computer programming in general. I enjoy turning complex
         problems into simple, beautiful and intuitive designs.
