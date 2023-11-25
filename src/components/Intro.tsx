@@ -65,7 +65,7 @@ const Intro = () => {
           <ul>
             {infos.map((info, i) => (
               <li key={i} className="w-full">
-                <Info icon={info.icon} label={info.label} text={info.text} />
+                <Info {...info} />
               </li>
             ))}
           </ul>
