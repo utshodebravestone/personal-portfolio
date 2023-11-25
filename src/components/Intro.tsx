@@ -50,10 +50,10 @@ const Intro = () => {
         </div>
 
         <div className="ml-3 md:ml-7 flex flex-col justify-center gap-1">
-          <h1 className="text-normal md:text-3xl font-medium">
+          <h1 className="text-xl md:text-3xl font-medium">
             Utsho de Bravestone
           </h1>
-          <p className="py-1.5 px-2.5 bg-neutral-800 text-xs font-light w-fit rounded-md">
+          <p className="py-1 md:py-1.5 px-2 md:px-2.5 bg-neutral-800 text-[.65rem] md:text-xs font-light w-fit rounded-md">
             Web Developer
           </p>
         </div>
