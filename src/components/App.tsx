@@ -2,8 +2,10 @@ import Intro from "./Intro";
 
 const App = () => {
   return (
-    <div className="py-10 px-10 md:px-20 min-h-screen min-w-full bg-black text-white">
-      <Intro />
+    <div className="py-5 md:py-10 min-h-screen min-w-full bg-black text-white">
+      <div className="max-w-[750px] mx-auto">
+        <Intro />
+      </div>
     </div>
   );
 };

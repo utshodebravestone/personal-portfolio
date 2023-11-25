@@ -32,7 +32,7 @@ const Intro = () => {
   const [showInfo, toggleShowInfo] = useToggle(false);
 
   return (
-    <div className="relative bg-neutral-900 max-w-[750px] mx-auto py-5 px-2.5 md:px-5 flex flex-col gap-2.5 rounded-xl border border-neutral-700">
+    <div className="relative bg-neutral-900 w-full py-5 px-2.5 md:px-5 flex flex-col gap-2.5 rounded-xl border border-neutral-700">
       <button
         onClick={toggleShowInfo}
         className="absolute top-0 right-0 py-1 md:py-2 px-2 md:px-4 border border-neutral-700 rounded-bl-xl rounded-tr-xl text-[.65rem] md:text-xs hover:border-white hover:-translate-y-0.5 hover:translate-x-0.5 transition-all duration-500"
