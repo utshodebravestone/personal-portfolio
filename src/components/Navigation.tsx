@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav className="sticky left-0 bottom-0 w-full py-5 border-t border-neutral-700 rounded-t-2xl z-50 bg-neutral-950">
+    <nav className="sticky left-0 bottom-0 w-full py-5 border-t border-neutral-700 rounded-t-2xl z-50 bg-black">
       <ul className="flex justify-center gap-5">
         <li>
           <NavLink
