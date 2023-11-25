@@ -35,7 +35,7 @@ const About = () => {
         development and computer programming in general. I enjoy turning complex
         problems into simple, beautiful and intuitive designs.
       </p>
-      <p className="mt-2.5 font-extralight text-[.65rem] md:text-base">
+      <p className="mt-2.5 font-extralight text-xs md:text-base">
         My job is to build your website so that it is functional and
         user-friendly but at the same time attractive. Moreover, I add personal
         touch to your product and make sure that is eye-catching and easy to
