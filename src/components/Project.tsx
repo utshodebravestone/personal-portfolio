@@ -20,14 +20,14 @@ const Project = ({
         <a
           href={liveLink}
           target="_black"
-          className="p-3 bg-black cursor-pointer rounded-xl hover:scale-105 transition-all duration-300"
+          className="hidden group-hover:block p-3 bg-black cursor-pointer rounded-xl hover:scale-105 transition-all duration-300"
         >
           <FaEye size={25} />
         </a>
         <a
           href={gitLink}
           target="_black"
-          className="p-3 bg-black cursor-pointer rounded-xl hover:scale-105 transition-all duration-300"
+          className="hidden group-hover:block p-3 bg-black cursor-pointer rounded-xl hover:scale-105 transition-all duration-300"
         >
           <FaGithub size={25} />
         </a>

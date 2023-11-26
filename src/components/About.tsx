@@ -6,7 +6,7 @@ const skills = [
   {
     icon: <TbAppWindow size={65} />,
     label: "Web Design",
-    text: "The most modern and high-quality frontend",
+    text: "Most modern and high-quality frontend",
   },
   {
     icon: <TbServer size={65} />,
