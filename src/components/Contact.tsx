@@ -25,19 +25,25 @@ const Contact = () => {
         <div className="w-full flex flex-col md:flex-row justify-center gap-5">
           <input
             type="text"
+            required
+            minLength={4}
             placeholder="Full Name"
-            className="p-2 w-full md:w-1/2 h-12 font-normal bg-transparent border border-neutral-500 rounded-md text-gray-100"
+            className="p-2 w-full md:w-1/2 h-12 font-normal bg-transparent border rounded-md text-gray-100 outline-none [&:not(:placeholder-shown)]:invalid:border-red-500 valid:border-green-500"
           />
           <input
             type="email"
+            required
+            minLength={8}
             placeholder="Email Address"
-            className="p-2 w-full md:w-1/2 h-12 font-normal bg-transparent border border-neutral-500 rounded-md text-gray-100"
+            className="p-2 w-full md:w-1/2 h-12 font-normal bg-transparent border rounded-md text-gray-100 outline-none [&:not(:placeholder-shown)]:invalid:border-red-500 valid:border-green-500"
           />
         </div>
         <textarea
           rows={3}
+          required
+          minLength={16}
           placeholder="Message"
-          className="w-full p-2 font-normal bg-transparent border border-neutral-500 rounded-md text-gray-100"
+          className="w-full p-2 font-normal bg-transparent border rounded-md text-gray-100 outline-none [&:not(:placeholder-shown)]:invalid:border-red-500 valid:border-green-500"
         ></textarea>
         <div className="w-full flex justify-end">
           <button className="w-full md:w-fit flex justify-center items-center gap-2 px-4 py-2 border border-neutral-800 shadow-md shadow-neutral-800 rounded-lg text-yellow-400 font-bold hover:translate-y-0.5 hover:contrast-150 transition-all duration-300">
