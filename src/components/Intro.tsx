@@ -70,7 +70,7 @@ const Intro = () => {
             ))}
           </ul>
           <div className="h-[.025rem] w-full bg-neutral-600" />
-          <ul className="w-full flex justify-center gap-2.5">
+          <ul className="w-full flex justify-center gap-5">
             <li>
               <a
                 href="https://github.com/utshodebravestone"
