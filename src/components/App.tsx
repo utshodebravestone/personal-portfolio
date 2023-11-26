@@ -10,7 +10,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="pt-5 md:pt-10 min-h-screen min-w-full bg-black text-white">
-        <div className="min-h-full max-w-[750px] mx-2.5 md:mx-auto">
+        <div className="min-h-full max-w-[800px] mx-2.5 md:mx-auto">
           <Intro />
           <div className="h-5 md:h-10" />
           <Routes>
