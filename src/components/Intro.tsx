@@ -1,7 +1,7 @@
 import { MdMail, MdCall, MdCalendarMonth, MdHome } from "react-icons/md";
 import { FaGithub, FaFacebook, FaTwitter } from "react-icons/fa";
 
-import utsho from "../assets/images/utsho.png";
+import utsho from "../assets/images/utsho.jpeg";
 import useToggle from "../hooks/useToggle";
 import Info from "./Info";
 
@@ -45,7 +45,7 @@ const Intro = () => {
           <img
             src={utsho}
             alt="Utsho"
-            className="h-full w-full rounded-full object-contain"
+            className="h-full w-full rounded-full object-cover"
           />
         </div>
 

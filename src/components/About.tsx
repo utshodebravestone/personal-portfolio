@@ -40,7 +40,7 @@ const About = () => {
         user-friendly but at the same time attractive. Moreover, I add personal
         touch to your product and make sure that is eye-catching and easy to
         use. My aim is to bring across your message and identity in the most
-        creative way. I created web design for many famous brand companies.
+        creative way.
       </p>
 
       <ul className="mt-2.5 md:mt-5 flex flex-col gap-3 md:gap-5">
