@@ -19,7 +19,7 @@ const infos = [
   {
     icon: <MdCalendarMonth size={25} />,
     label: "date of birth",
-    text: "09-07-2023",
+    text: "09-07-2003",
   },
   {
     icon: <MdHome size={25} />,
