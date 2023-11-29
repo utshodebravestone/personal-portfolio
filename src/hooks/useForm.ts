@@ -5,12 +5,16 @@ const useForm = <T extends object>(
   onSubmit: (_: T) => void
 ): {
   formData: T;
-  handleInputChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  handleInputChange: (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void;
   handleSubmit: (e: FormEvent<HTMLFormElement>) => void;
 } => {
   const [formData, setFormData] = useState(initialState);
 
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
