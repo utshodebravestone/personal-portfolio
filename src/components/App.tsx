@@ -15,9 +15,9 @@ const App = () => {
           <div className="h-5 md:h-10" />
           <Routes>
             <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<About />} />
           </Routes>
           <div className="h-20" />
           <Navigation />
