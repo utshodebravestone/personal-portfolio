@@ -1,6 +1,22 @@
-import { TbApi, TbAppWindow, TbBug, TbServer } from "react-icons/tb";
+import {
+  TbApi,
+  TbAppWindow,
+  TbBrandCss3,
+  TbBrandDjango,
+  TbBrandHtml5,
+  TbBrandJavascript,
+  TbBrandPython,
+  TbBrandReact,
+  TbBrandRust,
+  TbBrandTailwind,
+  TbBrandTypescript,
+  TbBrandVue,
+  TbBug,
+  TbServer,
+} from "react-icons/tb";
 
 import Skill from "./Skill";
+import Tech from "./Tech";
 
 const skills = [
   {
@@ -23,6 +39,19 @@ const skills = [
     label: "Debugging",
     text: "Hunting for Bugs in Codebase",
   },
+];
+
+const techs = [
+  { thumbnail: <TbBrandReact size={65} />, name: "React" },
+  { thumbnail: <TbBrandVue size={65} />, name: "Vue" },
+  { thumbnail: <TbBrandDjango size={65} />, name: "Django" },
+  { thumbnail: <TbBrandTailwind size={65} />, name: "Tailwind" },
+  { thumbnail: <TbBrandTypescript size={65} />, name: "TypeScript" },
+  { thumbnail: <TbBrandJavascript size={65} />, name: "JavaScript" },
+  { thumbnail: <TbBrandRust size={65} />, name: "Rust" },
+  { thumbnail: <TbBrandPython size={65} />, name: "Python" },
+  { thumbnail: <TbBrandCss3 size={65} />, name: "CSS" },
+  { thumbnail: <TbBrandHtml5 size={65} />, name: "HTML" },
 ];
 
 const About = () => {
@@ -53,6 +82,19 @@ const About = () => {
           </li>
         ))}
       </ul>
+
+      <div className="mt-2.5 md:mt-5 flex flex-col gap-3 md:gap-5">
+        <h1 className="text-xl md:text-[1.75rem] font-semibold">
+          What I'm Using
+        </h1>
+        <ul className="mx-1 md:mx-2.5 w-full py-2.5 md:py-5 px-5 md:px-10 flex gap-14 overflow-x-scroll border-t border-neutral-700 rounded-lg shadow-md shadow-neutral-800">
+          {techs.map((tech, i) => (
+            <li key={i}>
+              <Tech {...tech} />
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };
