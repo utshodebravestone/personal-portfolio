@@ -6,7 +6,7 @@ const Navigation = () => {
       <ul className="flex justify-center gap-5">
         <li>
           <NavLink
-            to="/about"
+            to="/"
             className={({ isActive }) =>
               (isActive ? "text-yellow-500 font-semibold" : "text-white") +
               " hover:text-yellow-500 transition-all duration-300"
