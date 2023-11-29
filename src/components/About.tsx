@@ -6,22 +6,22 @@ const skills = [
   {
     icon: <TbAppWindow size={65} />,
     label: "Web Design",
-    text: "Most modern and high-quality frontend",
+    text: "Designing Most Modern and Performant Frontend",
   },
   {
     icon: <TbServer size={65} />,
     label: "Web Development",
-    text: "High-quality development of websites",
+    text: "Building High Quality, SEO Friendly Websites",
   },
   {
     icon: <TbApi size={65} />,
     label: "API Development",
-    text: "Industry standard API design",
+    text: "Designing Industry standard API",
   },
   {
     icon: <TbBug size={65} />,
     label: "Debugging",
-    text: "Hunting bugs",
+    text: "Hunting for Bugs in Codebase",
   },
 ];
 
